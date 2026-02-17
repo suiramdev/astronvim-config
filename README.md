@@ -37,6 +37,10 @@ nvim
 
 On first run, Lazy.nvim will install plugins. Restart Neovim if prompted.
 
+## Optional: tmux
+
+The repo includes a **`.tmux.conf`** as an example from this setup (true color, vim-style keys, minimal status bar). It is optional: any tmux configuration may work with AstroNvim; use it as reference or ignore it.
+
 ## Requirements
 
 - Neovim 0.10+ (for AstroNvim v5)
