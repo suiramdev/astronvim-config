@@ -1,12 +1,20 @@
-# AstroNvim Template
+# AstroNvim User Configuration
 
-**NOTE:** This is for AstroNvim v5+
+**NOTE:** This configuration is for AstroNvim v5+.
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+A personal [AstroNvim](https://github.com/AstroNvim/AstroNvim) user config with Lazy.nvim, AstroCommunity packs, and custom plugins.
 
-## 🛠️ Installation
+## Structure
 
-#### Make a backup of your current nvim and shared folder
+- **`init.lua`** — Bootstraps Lazy.nvim, then loads `lazy_setup` and `polish`.
+- **`lua/lazy_setup.lua`** — Plugin specs and lazy.nvim setup.
+- **`lua/community.lua`** — AstroCommunity imports (Lua, TypeScript, Biome, oxlint, lazydocker, vim-tmux-navigator, ts-error-translator).
+- **`lua/plugins/`** — Plugin configs (astrocore, astroui, astrolsp, mason, treesitter, none-ls, cursorcli, cursortab, blink, etc.).
+- **`lua/polish.lua`** — Final polish and user preferences.
+
+## Installation
+
+#### Back up existing Neovim data
 
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
@@ -15,16 +23,10 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
+#### Clone this repo
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/suiramdev/astronvim-config.git ~/.config/nvim
 ```
 
 #### Start Neovim
@@ -32,3 +34,10 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+On first run, Lazy.nvim will install plugins. Restart Neovim if prompted.
+
+## Requirements
+
+- Neovim 0.10+ (for AstroNvim v5)
+- Git
