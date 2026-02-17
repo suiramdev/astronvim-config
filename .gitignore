@@ -1,0 +1,10 @@
+# Local overrides / secrets (do not commit)
+.env
+.env.*
+*.key
+*.pem
+secrets.lua
+credentials*
+
+# Optional: uncomment if you want to ignore lockfile
+# lazy-lock.json
