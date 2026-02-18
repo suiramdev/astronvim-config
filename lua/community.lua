@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.oxlint" },
+  { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.docker.lazydocker" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" }
   -- import/override with your plugins folder
