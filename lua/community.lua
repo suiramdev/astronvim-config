@@ -8,7 +8,6 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.oxlint" },
