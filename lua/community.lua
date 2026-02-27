@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.pack.oxlint" },
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.docker.lazydocker" },
-  { import = "astrocommunity.terminal-integration.vim-tmux-navigator" }
+  { import = "astrocommunity.pack.cs" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
   -- import/override with your plugins folder
 }
