@@ -15,5 +15,6 @@ return {
   { import = "astrocommunity.docker.lazydocker" },
   { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
+  { import = "astrocommunity.search.grug-far-nvim" },
   -- import/override with your plugins folder
 }
