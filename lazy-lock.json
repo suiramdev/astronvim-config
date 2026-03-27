@@ -13,7 +13,7 @@
   "cmp-dap": { "branch": "master", "commit": "ea92773e84c0ad3288c3bc5e452ac91559669087" },
   "csharpls-extended-lsp.nvim": { "branch": "master", "commit": "6eb1308c8f74adbcaa0d681a742f39d4165d063d" },
   "cursor-dark.nvim": { "branch": "main", "commit": "d8800f6aa6c87038fdb2f25042249de2ab3b8b49" },
-  "cursor-tab.nvim": { "branch": "main", "commit": "4a759d183229d183d5fa61a45d4e425eb6091d69" },
+  "cursor-tab.nvim": { "branch": "main", "commit": "dd4d76f393d3fa04511882b05614470f35eabf4c" },
   "friendly-snippets": { "branch": "main", "commit": "6cd7280adead7f586db6fccbd15d2cac7e2188b9" },
   "gitsigns.nvim": { "branch": "main", "commit": "7010000889bfb6c26065e0b0f7f1e6aa9163edd9" },
   "grug-far.nvim": { "branch": "main", "commit": "dc4684e163971bb1f5bfb93fbd4bb3e892bf9b15" },
