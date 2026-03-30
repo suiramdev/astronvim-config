@@ -107,8 +107,20 @@ return {
       enabled = true, -- If the user doesn't have the copilot LSP running internally this gets set as false
     },
     cli = {
+      ---@class sidekick.cli.Mux
+      ---@field backend? "tmux"|"zellij" Multiplexer backend to persist CLI sessions
       mux = {
         enabled = true,
+      },
+      --- Actual cli tool config is loaded from the runtime path `sk/cli/{tool}.lua` and merged with the config below.
+      --- For default configs, see https://github.com/folke/sidekick.nvim/tree/main/sk/cli
+      ---@type table<string, sidekick.cli.Config|{}>
+      tools = {
+        claude = {
+          -- Run the Claude Code CLI with permission checks skipped.
+          -- This gets passed directly as an argv to the `claude` command.
+          cmd = { "claude", "--dangerously-skip-permissions" },
+        },
       },
     },
   },
